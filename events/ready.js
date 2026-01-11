@@ -32,12 +32,12 @@ module.exports = {
                 const memberCount = guild.memberCount;
                 const guildName = guild.name;
                 client.user.setActivity(`${guildName} | ${memberCount} Üye`, {
-                    type: 3 // Watching
+                    type: 3 
                 });
             }
         };
 
         updateStatus();
-        setInterval(updateStatus, 100000); // 10 dakikada bir güncelle
+        setInterval(updateStatus, 100000); 
     }
 };
