@@ -10,17 +10,23 @@ Modern ve modüler bir yapıda tasarlanmış, otomatik isimden cinsiyet tespiti 
 - **İsim Doğrulama:** Girilen isimler `isimler.txt` listesiyle karşılaştırılır. Listede yoksa yetkililere haber verilir.
 - **Manuel Kayıt:** Yetkililer için `.e` ve `.k` komutları ile manuel kayıt imkanı.
 - **Detaylı Loglama:** Tüm başarılı ve başarısız kayıt denemeleri log kanalına bildirilir.
-- **Modüler Yapı:** Event-Command handler yapısı sayesinde kolayca geliştirilebilir.
 
 ## 🛠️ Kurulum
 
-1. Bu projeyi bilgisayarınıza indirin.
-2. Terminali açın ve bağımlılıkları yükleyin:
+1. Projeyi indirin:
+   ```bash
+   git clone https://github.com/S-pectral/Register-Bot
+   ```
+2. Proje konumuna gidin:
+   ```bash
+   cd Register-Bot
+   ```
+3. Terminali açın ve bağımlılıkları yükleyin:
    ```bash
    npm install
    ```
-3. `.env.example` dosyasının adını `.env` olarak değiştirin ve gerekli alanları doldurun.
-4. Botu başlatın:
+4. `.env.example` dosyasının adını `.env` olarak değiştirin ve gerekli alanları doldurun.
+5. Botu başlatın:
    ```bash
    node index.js
    ```
